@@ -17,4 +17,4 @@ npm start
 
 ## Supporting automatic update
 
-Check this repo: [[link]([new-angular-electron-project-template](https://github.com/dudaka/new-angular-electron-project-template))](https://github.com/dudaka/markdown-editor)
+Check this repo: [Link](https://github.com/dudaka/markdown-editor)
