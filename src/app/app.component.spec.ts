@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'integrate-angular' title`, () => {
+  it(`should have the 'new-angular-electron-project-template' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('integrate-angular');
+    expect(app.title).toEqual('new-angular-electron-project-template');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, integrate-angular');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, new-angular-electron-project-template'
+    );
   });
 });
